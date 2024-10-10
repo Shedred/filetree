@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\PATHNAME_HERE" -Recurse | Select-Object -Property FullName | Export-Csv -Path  C:\temp\FileTree.csv
